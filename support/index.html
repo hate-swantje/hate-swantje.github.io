@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>#hate-swantje</title>
+        <style>
+            .title {
+                color: #000000;
+                font-weight: 300;
+                margin: 0 0 58px;
+                text-align: center;
+                background: #EDD382;
+                padding: 2em;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 1.4em;
+                font-weight: 300;
+                line-height: 1.6em;
+                text-transform: uppercase;
+                font-weight: 900;
+            }
+            .c-btn-us {
+                color: #000;
+                display: inline-block;
+                border-bottom: 4px solid #000;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-weight: 900;
+                letter-spacing: .1em;
+                transition: .2s all;
+                font-size: small;
+                text-align: right;
+            }
+            body {
+                background-color: white;
+            }
+            .c-btn-us:hover {
+                padding-left: .75em;
+                padding-right: .75em;
+                color: #FF521B;;
+                border-color: #FF521B;
+            }
+            .name, .email, .frage {
+                padding: 1.4rem;
+                background: transparent;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <navi>
+            <a href="#" class="c-btn-us">About Us</a>
+            <a href="#" class="c-btn-us">Contact</a>
+            <a href="#" class="c-btn-us">Support</a>
+        </navi>
+        <h1 class="title">Swantje</h1>
+        <main>
+            <form action="https://formsubmit.co/hate.swantje@gmail.com" method="POST">
+                <div class="name">
+                        <p class="text">Wobei brauchst du Hilfe?</p>
+                        <input type="text" name="Name" placeholder="Ganzer Name">
+                </div>
+                <div class="email">
+                    <input type="email" name="Email" placeholder="Email">
+                </div>
+                <div class="frage">
+                    <textarea class="textarea" rows="30" cols="30" placeholder="Deine Frage hier:"></textarea>
+                </div>
+                <div class="btn">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
