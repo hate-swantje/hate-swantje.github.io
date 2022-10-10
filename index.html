@@ -17,6 +17,19 @@
                 text-transform: uppercase;
                 font-weight: 900;
             }
+            .c-btn-us {
+                color: #000;
+                display: inline-block;
+                border-bottom: 4px solid #000;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-weight: 900;
+                letter-spacing: .1em;
+                transition: .2s all;
+                font-size: small;
+                text-align: right;
+            }
             body {
                 background-color: white;
             }
@@ -31,7 +44,8 @@
                 align-items: top;
                 font-size: large;
                 max-width: 20em;
-                text-align: left;
+                text-align: center;
+                padding-top: 20px;
             }
             .c-btn {
                 color: #000;
@@ -46,7 +60,7 @@
                 position: relative;
                 transition: .2s all;
             }
-            .c-btn:hover {
+            .c-btn:hover, .c-btn-us:hover {
                 padding-left: .75em;
                 padding-right: .75em;
                 color: #FF521B;;
@@ -68,26 +82,31 @@
         </style>
     </head>
     <body>
+        <navi>
+            <a href="#" class="c-btn-us">About Us</a>
+            <a href="#" class="c-btn-us">Contact</a>
+            <a href="https://hate-swantje.github.io/support/" class="c-btn-us">Support</a>
+        </navi>
         <h1 class="title">Swantje</h1>
-        <article class="c-life">
-            <img src="maps.png">
-            <h2>Der Lebensraum</h2>
-            <p>
-                Dies ist Swantje's natürlicher Lebensraum, in dem sie schläft, 
-                isst und sich Gedanken über ihr Leben macht (machen sollte.)
-            </p>
-            <p><a href="https://bit.ly/3MowJvF" class="c-btn">Read More</a></p>
-        </article>
-        <article class="c-outf">
-            <img src="ffp2.png">
-            <h3>Der Outfit Check</h3>
-            <p>
-                Zu Schulzeiten trägt sie meißtens eine Jacke mit einer 
-                dazupassenden weißen FFP-2 Maske (ununterbrochen).
-            </p>
-            <p><a href="https://bit.ly/3TcOhNo" class="c-btn">Read More</a></p>
-        </article>
-
-
+        <main>
+            <article class="c-life">
+                <img src="maps.png">
+                <h2>Der Lebensraum</h2>
+                <p>
+                    Dies ist Swantje's natürlicher Lebensraum, in dem sie schläft, 
+                    isst und sich Gedanken über ihr Leben macht (machen sollte.)
+                </p>
+                <p><a href="https://bit.ly/3MowJvF" class="c-btn">Read More</a></p>
+            </article>
+            <article class="c-outf">
+                <img src="ffp2.png">
+                <h3>Der Outfit Check</h3>
+                <p>
+                    Zu Schulzeiten trägt sie meißtens eine Jacke mit einer 
+                    dazupassenden weißen FFP-2 Maske (ununterbrochen).
+                </p>
+                <p><a href="https://bit.ly/3TcOhNo" class="c-btn">Read More</a></p>
+            </article>
+        </main>
     </body>
 </html>
